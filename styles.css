@@ -1,0 +1,110 @@
+.container{
+    display:grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    font-size: 18px;
+    color: #2D3748;
+    font-family: -apple-system, BlinkMacSystemFont,"SegoeUI",Roboto,"Helvetica Neue",Arial,"Noto Sans", sansserif;
+}
+
+main{
+    word-wrap: break-word;
+    grid-column: col-start 2 / span 6;
+}
+
+aside{
+    word-wrap: break-word;
+    grid-column: col-start 9 / span 3;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.headerFlexContainer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-color:#63B3ED ;
+    color: #FFFFFF;
+    grid-column: col-start / span 12;
+    padding: 40px;
+}
+
+.headerFlexContainer h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.shantayImg img {
+    width: 200px;
+    height: 185px;
+    border-radius: 50%;
+}
+
+.p1{
+    margin-top: -15px;
+}
+
+article h2{
+    font-size: 32px;
+    color: #48BB78;
+}
+
+article p.datestyle{
+    color: #718096;
+    margin-top: -20px;
+}
+
+aside h3{
+    color: #48BB78;
+    font-family: Georgia,'Times New Roman', Times, serif;
+}
+
+.aboutHead{
+    color: #000000;
+    
+}
+.aboutSec{
+    background-color: #E2E8F0;
+    padding: 1px 10px 1px 10px;
+}
+
+section a{
+    color: #4299E1;
+}
+
+footer{
+    grid-column: col-start / span 12;
+    background-color: #2C5282;
+    color: #FFFFFF;
+    padding: 10px;
+    padding-left: 100px;
+}
+
+.devImg1 img {
+    width: 200px;
+    height: 185px;
+    float: right;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.devImg2 img {
+    width: 200px;
+    height: 185px;
+    float: left;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
